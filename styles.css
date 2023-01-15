@@ -1,0 +1,357 @@
+/* <!------------ google fonts ---------------> */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+ /* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.header-contain{
+    width: 100%;
+   
+    background: rgba(255, 144, 14, 0.1);
+}
+nav .navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.navbar{
+    font-size: 45px;
+    color: #131313;
+}
+
+.navbar ul li{
+ display: inline-block;
+ margin-right: 30px;
+ font-size: 18px;
+ color: #424242;
+
+}
+
+
+/*------------------- navbar end---------------- */
+/*------------ banner style star--------------------- */
+.brand-banner{
+text-align: center;
+padding: 80px;
+
+}
+.brand-info{
+    text-align: center;
+    margin-left:400px;
+    margin-right: 350px;
+}
+.brand-tittle{
+    font-size: 64px;
+    color: #131313;
+    line-height: 75px;
+    font-weight: 700;
+}
+.brand-banner-info{
+    font-size: 14px;
+    color: #727272;
+    margin-bottom: 30px;
+
+}
+.button{
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 20px;
+    border: none;
+    margin-top: 32px;
+    
+}
+.brand-banner img{
+    width:100%;
+    height: 700px;
+    background: url(group-three-modern-architects.jpg);
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+/*------------------ banner style end---------------- */
+
+/*------------------ team style star------------------ */
+section{
+    margin: 80px;
+}
+.team{
+    display:flex;
+    gap: 20px;
+    
+}
+.mamber{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap:30px;
+    grid-row-gap:24px;
+    
+}
+.card{
+    width: 342px;
+    margin:10px auto;
+    box-shadow: 0 0 5px gray;
+    overflow: hidden;
+    position:relative;
+}
+
+.card img{
+    width:100%;
+    height: auto;
+    transform: scale(1);
+    display: block;
+    transition: all 0.5s;
+}
+.card:hover img{
+    transform: scale(1.05);
+   
+}
+.team-detailes{
+    width: 50%;
+    margin-top: 150px;
+    padding: 60px;
+}
+.team-detailes :hover{
+    border:3px solid red;
+   
+}
+.Features{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #FF900E;
+}
+.Quick-list{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 53px;
+    color: #727272;
+}
+.of-Our{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+/* ------------------team style end--------------------- */
+
+/* -------------------love-enjoy style start------------ */
+.enjoy-love{
+    display: flex;
+    gap: 50px;
+}
+.enjoy-detailes{}
+.enjoy-tittle{
+    width: 468px;
+    height: 106px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+ .devic-version{
+    width: 400px;
+    font-weight: 600;
+    font-size: 20px;
+    box-shadow: 2px 3px 2px 3px hsla(0, 21%, 95%, 0.83);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.devic-name{
+    width: 300px;
+    
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+.enjoy-girl img{
+
+}
+.enjoy-btn{
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    
+    position:relative;
+    bottom:120px;
+    right:150px;
+    
+   
+}
+.years-btn{
+    width: 258px;
+    height: 109px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.exp-btn{
+    width: 258px;
+    height: 109px;
+    left: 922px;
+    top: 3150px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* -------------------love-enjoy style end------------ */
+
+/* ---------------------some fact-style-start---------------------------------- */
+.facts-tittle{
+    width: 258px;
+    height: 53px;
+    left: 240px;
+    top: 3434px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+.facts-info{
+    margin-top: 140px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    transition: border 0 3px soli ;
+}
+.box-detailes{
+    width: 241.83px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+}
+.box-detailes :hover{
+    border: 4px solid rgb(195, 255, 0);  
+}
+.box-detailes img{
+    margin-top: 40px;
+}
+.box-num{
+   
+    font-weight: 500;
+    font-size: 30px;
+    color: #424242;
+    margin-top: 5px;
+   
+
+}
+.box-tittale{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #727272;
+    margin-top: 8px;
+    
+}
+
+/*-------------------------- some fact style end------------------------ */
+
+/*----------------------- Our Sponspors start--------------------- */
+.sponsor-info{
+    text-align: center;
+}
+.sponsor-info h2{
+
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+color: #131313;
+}
+.company-info{
+    margin-top: 100px;
+    display: grid;
+     grid-template-columns:repeat(5, 1fr) ;
+     border: none;
+     justify-content: center;
+}
+.company-name{
+    width: 241.83px;
+    height: 241px;
+    text-align: center;
+}
+ .cpmpany-name :hover{
+    border: 4px solid rgb(195, 255, 0);
+}
+ 
+
+/* -------------------------Our Sponspors end--------------------- */
+
+/* -----------------future plan style  */
+.My-Plans-p{
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 45px;
+    font-weight: 700;
+}
+.course{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.course-info{
+    background-color: #727272;
+    padding: 10px;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+.course-info h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+.course-info p{
+    color: #f5e3e3;
+}
+
+/* -----------------footer------------- */
+.footer{
+    background-color: rgba(255, 244, 231, 1);
+    padding: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: #424242;
+    margin-bottom: 100px;
+
+}
+.footer p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #424242;
+}
+@media only screen and (max-with:688px) {
+    
+    .navbar .brand-banner  .team {
+        flex-direction: column;
+    }
+    .mamber .enjoy-detailes .enjoy-girl .facts-info .box-detailes .course-info{
+        grid-template-columns: repeat(1,fr);
+        flex-direction: column;
+    }
+    
+}
